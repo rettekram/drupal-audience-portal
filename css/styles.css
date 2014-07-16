@@ -1,0 +1,53 @@
+/**
+ * 	HTML Layout Styles
+ */
+body {
+	background-color: #333;
+}
+
+footer {
+	color: #fff;
+	padding-top: 20px;
+}
+
+
+/**
+ * 	Bootstrap Overrides
+ */
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-inverse {
+	background-color: #0678be;
+	border-color: #0678be;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #ddd;
+}
+.navbar-inverse .navbar-brand .fa-2x {
+	float: left;
+	margin: -8px 8px 0 -8px;
+}
+
+
+/**
+ * 	Interface Customizations
+ */
+.container-wrapper {
+	padding: 20px 0;
+}
+.container-wrapper.white {
+	background-color: #fff;
+}
+.container-wrapper.grey {
+	background-color: #ddd;
+}
+.container-wrapper.blue {
+	background-color: #07598c;
+	color: #fff;
+}
+
